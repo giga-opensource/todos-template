@@ -1,4 +1,5 @@
 export const CREATE_TODO = 'CREATE_TODO';
+export const REMOVE_TODO = 'REMOVE_TODO';
 
 export function createTodo(text) {
   return {
@@ -6,3 +7,10 @@ export function createTodo(text) {
     text
   };
 }
+
+export function removeTodo(index) {
+  return {
+    type: REMOVE_TODO,
+    index
+  };
+}  

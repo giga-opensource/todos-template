@@ -9,6 +9,10 @@ export function todos(state = [], action) {
     });
     return newTodos;
   }
+  case ActionTypes.REMOVE_TODO: {
+    const index = action.index;
+    return [...state.slice(0,index), ...state.slice(index + 1)];
+  }
   default:
     return state;
   }

@@ -18,3 +18,34 @@ html {
   padding: 30px;
   border: 1px solid #ccc;
 }
+
+
+/*span {
+  cursor: pointer;
+}
+span.active {
+  border: 1px solid #ccc;
+}
+
+
+.delete-icon {
+  margin-left: 30px;
+  color: red;
+}
+*/
+.Textfield{
+  width:200px;
+  height:50px;
+
+}
+
+ input{
+  widtd:150px;
+  height:30px;
+  border:1px solid #ccc;
+ }
+p{
+  width:200px;
+  height:50px;
+  border:1px solid red;
+}
